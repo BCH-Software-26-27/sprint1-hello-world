@@ -47,12 +47,3 @@ Every associate must check the project board, claim their respective department 
 * **Sprint Task:** Initialize your team's Kanban board. Translate these README requirements into role-specific issue cards, monitor branch activity, and manage the team's internal documentation updates.
 * **Deliverable:** Coordinate the daily team standup logs and submit the finalized repository URL to the Instructor once QA clears the build.
 
----
-
-## 🛠️ 3. Standard Operating Procedures (SOP)
-
-To maintain codebase compliance, teams are strictly forbidden from writing code directly on the `main` production branch. 
-
-1. **Branch Isolation:** Before writing code, checkout a unique feature branch named with your role prefix and Employee ID:
-   ```bash
-   git checkout -b feature/UX-ID1009
